@@ -1,0 +1,58 @@
+name: bmi
+description: A new Flutter project.
+
+version: 1.0.01+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^3.15.0
+  hive: ^1.4.1+1
+  provider: ^4.3.2+3
+  # path_provider: ^1.6.5
+  flutter_spinkit: ^4.1.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #flutter packages pub run flutter_launcher_icons:main
+  flutter_launcher_icons: ^0.7.4
+flutter_icons:
+  image_path: "assets/icon/icon.jpg"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - google_fonts/
+    - assets/images/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: google_fonts/Lato-Thin.ttf
+          weight: 100
+        - asset: google_fonts/Lato-ThinItalic.ttf
+          style: italic
+        - asset: google_fonts/Lato-Light.ttf
+          weight: 300
+        - asset: google_fonts/Lato-LightItalic.ttf
+          style: italic
+        - asset: google_fonts/Lato-Regular.ttf
+          weight: 500
+        - asset: google_fonts/Lato-Italic.ttf
+          style: italic
+        - asset: google_fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: google_fonts/Lato-BoldItalic.ttf
+          style: italic
+        - asset: google_fonts/Lato-Black.ttf
+          weight: 900
+        - asset: google_fonts/Lato-BlackItalic.ttf
+          style: italic
